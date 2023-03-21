@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #eff3ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card {
+    cursor: pointer;
+    height: 90vh;
+    width: 70vw;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 20px 10px rgb(153, 187, 213);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.search {
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.searchContainer {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 30px;
+}
+
+input {
+    border: none;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    left: 30px;
+    color: rgb(141, 141, 141);
+}
+
+input:focus {
+    outline: none;
+}
+
+
+i {
+    position: relative;
+    left: 10px;
+    color: rgb(141, 141, 141);
+}
+
+.options {
+    height: 60vh;
+    width: 60vw;
+    position: relative;
+    top: 70px;
+}
+
+.row {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+    color: rgb(10, 10, 104);
+    font-family: 'Poppins', sans-serif;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px rgb(204, 204, 255);
+}
+
+.one {
+    border-right: 1px solid rgb(165, 165, 165);
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.two {
+    border-right: 1px solid rgb(165, 165, 165);
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.three {
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.four {
+    border-right: 1px solid rgb(165, 165, 165);
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.five {
+    border-right: 1px solid rgb(165, 165, 165);
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.six {
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.seven {
+    border-right: 1px solid rgb(165, 165, 165);
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.eight {
+    border-right: 1px solid rgb(165, 165, 165);
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.nine {
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.ten {
+    border-right: 1px solid rgb(165, 165, 165);
+}
+
+.eleven {
+    border-right: 1px solid rgb(165, 165, 165);
+
+}
